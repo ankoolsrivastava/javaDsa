@@ -8,10 +8,10 @@ public class pattern6 {
                 System.out.print(" ");
             }
             for (int k = 1; k <= i; k++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             for (int m=1;m<i;m++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
