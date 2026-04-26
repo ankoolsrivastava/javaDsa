@@ -2,43 +2,25 @@ package basicMaths;
 import java.util.Scanner;
 public class ArmstrongNumber {
 
-
-    public static boolean isArmstrong(int number) {
-        if (number < 0) {
-            return false;
+    static void armstrongNumber(int n){
+        int num =n;
+        String l=String.valueOf(n);
+        int len=l.length();
+        int sum=0;
+        while(num!=0){
+            int rem=num%10;
+            sum+=(int)Math.pow(rem,len);
+            num=num/10;
         }
-
-        int originalNumber = number;
-        int digits = String.valueOf(number).length();
-        int sum = 0;
-
-        while (number > 0) {
-            int digit = number % 10;
-            sum += Math.pow(digit, digits);
-            number /= 10;
+        if(sum==n){
+            System.out.print("Is An Armstrong Number");
         }
-
-        return sum == originalNumber;
+        else System.out.print("Is Not An Armstrong Number");
     }
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        if (!scanner.hasNextInt()) {
-            System.out.println("Invalid input. Please enter an integer.");
-            scanner.close();
-            return;
-        }
-
-        int num = scanner.nextInt();
-        scanner.close();
-
-        if (isArmstrong(num)) {
-            System.out.println(num + " is an Armstrong number.");
-        } else {
-            System.out.println(num + " is NOT an Armstrong number.");
-        }
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Number: ");
+        int a = sc.nextInt();
+        armstrongNumber(a);
     }
 }
-
