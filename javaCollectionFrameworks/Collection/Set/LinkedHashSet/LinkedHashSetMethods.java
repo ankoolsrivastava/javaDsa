@@ -1,4 +1,4 @@
-package javaCollection.Set.LinkedHashSet;
+package javaCollectionFrameworks.Collection.List.Set.LinkedHashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 // elements stored  same as insertion O(n)

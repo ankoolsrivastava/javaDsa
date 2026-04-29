@@ -1,7 +1,6 @@
-package javaCollection;
+package javaCollectionFrameworks;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 //   Java Collection is an interface
 

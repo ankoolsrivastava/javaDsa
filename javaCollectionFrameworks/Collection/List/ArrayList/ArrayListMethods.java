@@ -1,4 +1,4 @@
-package javaCollection.List.ArrayList;
+package javaCollectionFrameworks.Collection.List.ArrayList;
 import java.util.*;
 // ArrayList Method :
 //      sort()
