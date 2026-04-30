@@ -1,4 +1,4 @@
-package javaCollectionFrameworks.Collection.List.Queue.ArrayDeque;
+package javaCollectionFrameworks.Collection.Queue.ArrayDeque;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

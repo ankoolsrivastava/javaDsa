@@ -1,4 +1,4 @@
-package javaCollectionFrameworks.Collection.List.Queue.LinkedList;
+package javaCollectionFrameworks.Collection.Queue.LinkedList;
 
 import java.util.LinkedList;
 import java.util.Queue;

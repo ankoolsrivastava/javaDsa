@@ -1,9 +1,10 @@
-package javaCollectionFrameworks.Collection.List.Set.HashSet;
+package javaCollectionFrameworks.Collection.Set.HashSet;
 
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 // if we want to use the hashset on a custom class(Student) we need to override two methods -->
+//      to avoid duplicates we in the  custom class
 //      equals() and hashCode();
 
 
@@ -41,7 +42,7 @@ public class Student {
         st.add(new Student(1,"Ankool"));
         st.add(new Student(2,"Anup"));
         st.add(new Student(1,"Ankool"));
-        st.add(new Student(2,"Ankool"));
+        st.add(new Student(2,"Ank"));
         System.out.println(st);
 
     }
