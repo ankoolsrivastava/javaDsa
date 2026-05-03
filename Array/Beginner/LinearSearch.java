@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class LinearSearch {
     public static boolean search(int []a,int n){

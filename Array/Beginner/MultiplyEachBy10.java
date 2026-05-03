@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class MultiplyEachBy10 {
     public static int[] multi(int[]a){

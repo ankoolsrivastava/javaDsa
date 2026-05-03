@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class LargestNumber {
     public static int largest(int[] arr) {

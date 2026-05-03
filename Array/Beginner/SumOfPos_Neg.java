@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class SumOfPos_Neg {
     public static int[] posNeg(int[]a){

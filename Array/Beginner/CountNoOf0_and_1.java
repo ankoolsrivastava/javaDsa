@@ -1,6 +1,4 @@
-package Array.Part1;
-
-import java.awt.*;
+package Array.Beginner;
 
 public class CountNoOf0_and_1 {
     public static int[] countingNumber(int[]a){

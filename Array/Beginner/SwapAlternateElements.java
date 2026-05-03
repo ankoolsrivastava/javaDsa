@@ -1,8 +1,7 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class SwapAlternateElements {
     public static int[] swaping(int[]a){
-//        int []b=new int[a.length];
         int temp;
         for(int i=0;i<a.length-1;i+=2){
             temp=a[i];

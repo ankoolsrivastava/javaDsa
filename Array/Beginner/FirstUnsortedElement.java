@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class FirstUnsortedElement {
     public static int unsorted(int []a){

@@ -1,4 +1,4 @@
-package Array.Part1;
+package Array.Beginner;
 
 public class IntersectionElements {
     public static void commonElement(int []a,int[]b) {
