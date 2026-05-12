@@ -1,4 +1,4 @@
-package basic.BasicArray.basicMaths;
+package basic.basicMaths;
 import java.util.*;
 
 public class PrintDigits {

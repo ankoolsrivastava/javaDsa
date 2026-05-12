@@ -1,4 +1,4 @@
-package basic.BasicArray.basicMaths;
+package basic.basicMaths;
 import java.util.Scanner;
 public class PalindromeNum {
         static  void checkPalindrome(int num){

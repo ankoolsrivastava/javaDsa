@@ -1,4 +1,4 @@
-package basic.BasicArray.basicMaths;
+package basic.basicMaths;
 import java.util.Scanner;
 public class CheckPrime {
     static void checkPrime(int n){
