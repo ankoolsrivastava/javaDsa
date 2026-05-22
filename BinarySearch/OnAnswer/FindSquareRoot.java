@@ -1,10 +1,10 @@
 package BinarySearch.OnAnswer;
 
 public class FindSquareRoot {
-    public static int mySqrt(int x) {
+    public static double mySqrt(int x) {
             int start=1;
             int end=x;
-            int ans=0;
+            double ans=0;
             if(x==0) return 0;
 
             while(start<=end){
@@ -19,11 +19,25 @@ public class FindSquareRoot {
                     start=mid+1;
                 }
             }
+            double factor=1;
+            int precision=3;
+            for(int round=1;round<=precision;round++){
+                factor/=10;
+                for(int i=1;i<10;i++){
+                    double newAns=ans+factor;
+                    if(newAns<=x/newAns){
+                        ans=newAns;
+                    }
+                    else{
+                        break;
+                    }
+                }
+            }
             return ans;
         }
 
     static void main(String[] args) {
-        System.out.print(mySqrt(56));
+        System.out.printf("%.3f",mySqrt(56));
 
     }
 }
