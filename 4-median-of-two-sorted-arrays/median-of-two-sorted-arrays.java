@@ -27,11 +27,11 @@ class Solution {
             j++;
             k++;
         }
-        int len=result.length;
-        if(len%2!=0){
-            return result[len/2];
+        
+        if(size%2!=0){
+            return result[size/2];
         }else{
-            return (result[(len/2)-1]+result[len/2])/2.0;
+            return (result[(size/2)-1]+result[size/2])/2.0;
         }
 
     }
